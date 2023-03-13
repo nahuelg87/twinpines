@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 15;  
+    font-family: 'Inter Tight', sans-serif;
+}
+
+body{
+    height: auto;
+    width: 100%;
+    background-color: black;
+}
+
+.video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 65px;
+}
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    color: #f1f1f1;
+    display: block;
+    transition: 0.3s;
+}
+.sidebar a:hover {
+    color:  #818181;
+}
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: lime;
+    padding: 10px 15px;
+    border: none;
+}
+.openbtn:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.dropbtn {
+    background-color: transparent;
+    color: lime;
+    padding: 14px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.dropbtn:hover {
+    /* background-color: black; */
+    border-color: white;
+    color: white;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    color: lime;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: lime;
+}
+
+.dropdown-content a {
+    color: white;
+    margin-top: 10px;
+    padding: 12px 1px;
+    text-decoration: none;
+    display: block;
+    font-size: 80%;
+}
+.dropdown-content a:hover {
+    color: lime;
+}
+
+.dropdown a:hover {
+    background-color: lime;
+}
+
+.show {
+    display: block;
+}
+#logo{
+    width:50px;
+    color: lime;
+}
+
+#mainBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#bodyLogin{
+    background-image: url("../assets/fondo.jpg") ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#areaCentral{
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+#calculadoraVacaciones{
+    border: solid 1px blue;
+    color: blue;
+    margin-left: 5%;
+    margin-right: 5%;
+    /* margin-top: 1%;
+    margin-bottom: 5%; */
+    /* padding: 5% 5% 5% 5%; */
+}
+#diasResultado{
+    border: solid 1px blue;
+    color: blue;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding: 5% 5% 5% 5%;
+}
+
+#diasDisponibles{
+    border: solid 1px blue;
+    color: blue;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding: 5% 5% 5% 5%;
+}
+
+#diasRestantes{
+    border: solid 1px blue;
+    color: blue;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    padding: 5% 5% 5% 5%;
+}
+
+#loginForm{
+    font-family:'Tilt Neon', cursive;
+    width: 506px;
+    height: 500px;
+    color: lime;
+    border: lime;
+    border-radius: 15px;
+    border-style:inset;
+    padding-top: 30px;
+    margin: 99px auto;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    box-shadow: -10px 18px 15px 5px gray;
+    backdrop-filter: blur(10px);
+}
+
+#loginForm input{
+    font-size: 15px;
+    font-weight: 100;
+    padding: 8px;
+    display: flex;
+    margin: 10px auto;
+    text-align: center;
+    border: lime;
+    border-style:inset;
+    outline: none;
+    border: none;
+    border-bottom: solid 3px lime;
+    background-color: transparent;
+    color: black;
+}
+
+#loginForm label{
+    font-size: 18 px;
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+}
+
+.auto-jsCalendar{
+    margin: auto;
+    width: 30%;
+    border: 3px solid lime;
+    padding: 10px;
+}
+
+input[type="button"]{
+    cursor:pointer;
+}
+
+input[type="button"]:hover{
+    background-color: black;
+    color: lime;
+    border-radius: 8px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding-left: 5px;
+    padding-right: 5px; 
+    width: auto;
+}
+/* //GRIDS AREA// */
+
+#containerx {
+    color: black;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 5px;
+    min-height: 95vh;
+    display: grid;
+    grid-template-columns: 24.5%;
+    grid-template-rows: 10%; 
+    grid-gap: 0.5rem;
+    grid-template-areas: 
+    "perfil cartel cartel cartel"
+    "perfil cartel cartel cartel"
+    "perfil cartel cartel cartel"
+    "perfil ingresos cumpleanios cumpleanios"
+    "licencias ingresos cumpleanios cumpleanios"
+    "licencias ingresos cumpleanios cumpleanios"
+    "licencias ingresos cumpleanios cumpleanios"
+    "docs ingresos cumpleanios cumpleanios"
+    "docs ingresos cumpleanios cumpleanios"
+    "docs ingresos cumpleanios cumpleanios"
+}  
+
+.bordes{
+    border: solid 1px lime;
+    color: lime;
+}
+
+#perfil{
+    grid-area:perfil;
+}
+
+#botondocumentos{
+    grid-area:docs;
+}
+
+#botonvacaciones{
+    grid-area:licencias;
+}
+
+#bienvenida{
+    grid-area:cartel;
+}
+
+#seccionCumpleanios{
+    grid-area:cumpleanios;
+}
+
+#ingresos{
+    grid-area:ingresos;
+}
+
+@media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 10px;}
+}
+
+@media (min-width: 600px) and (max-width: 1000px) {
+    main {
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 150px
+        100px
+        1fr
+        100px;
+    grid-template-areas: 
+        "my-header my-header my-header"
+        "my-nav my-nav my-nav"
+        "my-aside my-section my-section"
+        "my-footer my-footer my-footer"
+    }
+}
+
+@media (min-width: 1000px) {
+    .containerx {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr
+        1fr
+        1fr
+        1fr
+        1fr
+        1fr;
+    grid-template-areas:
+        "perfil perfil docs"
+        "perfil perfil docs"
+        "licencias licencias cartel"
+        "licencias licencias cartel"
+        "cumpleanios cumpleanios cumpleanios"
+        "ingresos ingresos ingresos"
+    }
+}

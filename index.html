@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo">Proyecto JS - Nahuel Genari</title>
+    <script defer src="js/data.js"></script>
+    <script defer src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <video class="video" src="./assets/Space01.mp4" position="fixed" video autoplay="autoplay" loop="loop" preload="auto" muted></video>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#"><img id="logo" src="./assets/Twinpines.svg.png" title="Logo Grupo Los Pinos Gemelos" alt="Logo Grupo Los Pinos Gemelos"></a>
+        <a href="#">Inicio</a>
+        <a href="./pages/documentos.html">Documentos</a>
+        <a href="./pages/vacaciones.html">Vacaciones</a>
+    </div>  
+    <div id="main">
+        <span id="mainBar">
+            <button class="openbtn" onclick="openNav()">☰ GRUPO LOS PINOS GEMÉLOS</button>  
+            <div class="openbtn">
+                <button onclick="menuLogin()" class="dropbtn">Opciones</button>
+                <div id="myDropdown1" class="dropdown-content">
+                <a href="/signup.html" onclick="login()">Registrate</a>
+                <a href="/login.html" onclick="login()">Inicia Sesión</a>
+                <a href="/login.html" id="btnLogout" onclick="logout()">Cerrar Sesión</a>
+                </div>
+            </div>
+        </span>
+        <div id="containerx">
+            <span id="perfil" class="bordes">
+            <h2>Perfil del usuario</h2>
+            </span>
+            <div id="botondocumentos" class="bordes">
+            <h4>Documentos</h4>
+            </div>
+            <span id="botonvacaciones" class="bordes">
+            <h4>Vacaciones</h4>
+            </span>
+            <div id="bienvenida" class="bordes"> 
+            <h2>Cartel de bienvenida</h2>
+            </div>
+            <div id="seccionCumpleanios" class="bordes">
+            <h2>Cumpleaños del mes:</h2>
+            <ul id="listCumpleanios">
+            </ul>
+            </div>
+            <div id="ingresos" class="bordes">
+            <h2>Ultimos ingresos en la compañia:</h2>
+            <ul id="ultimosIngresos"></ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

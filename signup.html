@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo">Proyecto JS - Nahuel Genari</title>
+    <script defer src="js/data.js"></script>
+    <script defer src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>GRUPO LOS PINOS GEMÉLOS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body id="bodyLogin">
+    <form id="loginForm" action="">
+        <a href="#"><img id="logo" src="../assets/Twinpines.svg.png" title="Logo Grupo Los Pinos Gemelos" alt="Logo Grupo Los Pinos Gemelos"></a>
+        <h1>Regístrate</h1>
+        <label for="">Nombre y Apellido:</label>
+        <input type="text" placeholder="Ingrese su nombre y apellido" id="nameLastname">
+
+        <label for="">Email:</label>
+        <input type="email" placeholder="Ingrese su email" id="email">
+
+        <label for="">Contraseña:</label>
+        <input type="password" placeholder="Ingrese su contraseña" id="password1">
+
+        <label for="">Repita su contraseña:</label>
+        <input type="password" placeholder="Repita su contraseña" id="password2">
+
+        <input type="button" value="Enviar" onclick="signup()">
+    </form>
+
+</body>
+</html>

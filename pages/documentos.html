@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo">Proyecto Final JS - Nahuel Genari</title>
+    <script defer src="../js//data.js"></script>
+    <script defer src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <video class="video" src="../assets/Space01.mp4" position="fixed" video autoplay="autoplay" loop="loop" preload="auto" muted></video>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="../index.html"><img id="logo" src="../assets/Twinpines.svg.png" title="Logo Grupo Los Pinos Gemelos" alt="Logo Grupo Los Pinos Gemelos"></a>
+        <a href="../index.html">Inicio</a>
+        <a href="#">Documentos</a>
+        <a href="/pages/vacaciones.html">Vacaciones</a>
+    </div>  
+    <div id="main">
+        <span id="mainBar">
+            <button class="openbtn" onclick="openNav()">☰ GRUPO LOS PINOS GEMÉLOS</button>  
+            <div class="openbtn">
+                <button onclick="menuLogin()" class="dropbtn">Opciones</button>
+                <div id="myDropdown1" class="dropdown-content">
+                <a href="/signup.html" onclick="login()">Registrate</a>
+                <a href="/login.html" onclick="login()">Inicia Sesión</a>
+                <a href="/login.html" id="btnLogout" onclick="logout()">Cerrar Sesión</a>
+                </div>
+            </div>
+        </span>
+        <div id="areaCentral" class="bordes">
+            <h1>Descargar recibos de sueldo anteriores</h1>
+            <div class="content"></div>
+            <template id="tableTemplate">
+            <table>
+            <thead><tr>
+            <th class="subject">Subjects</th>
+            </tr></thead>
+            <tbody>
+            </tbody>
+            </table>
+            </template>
+            <template id="rowTemplate"><tr>
+            <th class="subject"></th></tr>
+            </template>               
+        </div>
+    </div>
+</body>
+</html>

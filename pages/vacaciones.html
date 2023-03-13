@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titulo">Proyecto Final JS - Nahuel Genari</title>
+    <script defer src="../js/data.js"></script>
+    <script defer src="../js/script.js"></script>
+    <script defer src="../js/vacaciones.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <video class="video" src="../assets/Space01.mp4" position="fixed" video autoplay="autoplay" loop="loop" preload="auto" muted></video>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="../index.html"><img id="logo" src="../assets/Twinpines.svg.png" title="Logo Grupo Los Pinos Gemelos" alt="Logo Grupo Los Pinos Gemelos"></a>
+        <a href="../index.html">Inicio</a>
+        <a href="/pages/documentos.html">Documentos</a>
+        <a href="#">Vacaciones</a>
+    </div>  
+    <div id="main">
+        <span id="mainBar">
+            <button class="openbtn" onclick="openNav()">☰ GRUPO LOS PINOS GEMÉLOS</button>  
+            <div class="openbtn">
+                <button onclick="menuLogin()" class="dropbtn">Opciones</button>
+                <div id="myDropdown1" class="dropdown-content">
+                <a href="/signup.html" onclick="login()">Registrate</a>
+                <a href="/login.html" onclick="login()">Inicia Sesión</a>
+                <a href="/login.html" id="btnLogout" onclick="logout()">Cerrar Sesión</a>
+                </div>
+            </div>
+        </span>
+        <div id="areaCentral" class="bordes">
+            <h1>Vacaciones</h1>
+            <div id="diasDisponibles">
+            </div>
+            <div id="calculadoraVacaciones">
+                <form id="calculator">
+                    <h2>Selecciona el tipo de dias a reservar:</h2>
+                    <select id="tipoLicencia">
+                        <option value="diasLibres">Dias libres</option>
+                        <option value="diasEstudio">Estudio</option>
+                        <option value="diasCumple">Dia de cumpleaños</option>
+                        <option value="diasEnfermedad">Enfermedad</option>
+                        <option value="diasMaternidad">Excedencia Maternidad</option>
+                        <option value="diasSingocesueldo">Licencias sin goce de sueldo</option>
+                    </select>
+                    <br>
+                    <input type="button" value="Seleccionar" onclick="elegirMotivo()">
+                </form>
+            </div>
+            <div id="diasResultado" class="bordes">
+                <div id="resultado2"></div>
+            </div>
+            <div id="diasRestantes">
+                <div id="seccion2"></div>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
