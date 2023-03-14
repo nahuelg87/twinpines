@@ -80,7 +80,7 @@ let messiJSN = {
 
 let img = document.createElement('img');
 img.src = messiJSN.Imagen;
-img.setAttribute('alt', 'Descripción de la imagen');
+img.setAttribute('alt', 'Leo Messi');
 img.style.width = "60%"; 
 img.style.borderRadius = "50%";
 img.style.display = "block";
