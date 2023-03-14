@@ -16,7 +16,7 @@ function login(){
     let email=document.getElementById("email").value;
 
     if (user=="Lionel Messi" && password=="1234" && email=="lionel.messi@hotmail.com" ){
-        window.location="index.html"
+        window.location="../index.html"
         let = localStorage.setItem("user",user);
         let = localStorage.setItem("password",password);
         let = localStorage.setItem("email",email); 
