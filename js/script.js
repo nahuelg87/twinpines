@@ -66,7 +66,7 @@ document.querySelector('#bienvenida').innerText = `Buenos días ${user}
 
 //Perfil del usuario
 
-let imgProfile = '/assets/messi.jpg';
+let imgProfile = '../assets/messi.jpg';
 let imgProfile2 = '../assets/messi2.jpg';
 
 let messiJSN = {
