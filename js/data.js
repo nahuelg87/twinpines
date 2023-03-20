@@ -18,10 +18,7 @@ class Empleado {
 } 
 let idA = new Empleado("Ramon Diaz", 8, 15);
 let idB = new Empleado("Lionel Messi", 7, 28);
-
-// //=================DOM=================
-// // console.log(document.getElementById('calc'))
-// console.log(document.getElementById('titulo'))
+//=================DOM=================
 
 //DIAS DE VACACIONES
 const vacacionesMessi = [{anio:1, diasrecibidos:14, diasutilizados: 10, diasremanentes:4, documentos:12},

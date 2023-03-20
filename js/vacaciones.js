@@ -109,6 +109,9 @@ diasRestantes.addEventListener('click', () => {
     resetearElemento('seccion2');
 });
 
+
+
+
 function rstElm(id) {
     const elemento = document.querySelector(`#${id}`);
     elemento.innerHTML = '';
