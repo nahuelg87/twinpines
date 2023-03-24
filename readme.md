@@ -21,6 +21,7 @@ Informacion general del proyecto:
 #### tecnologias
 
 Tecnologias utilizadas dentro del proyecto:
+
 *[Javascript]--(https://www.javascript.com/) - Versión:
 
 *[Bootstrap]---(https://getbootstrap.com/) - Versión: 5.3.0
