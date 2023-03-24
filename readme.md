@@ -8,7 +8,7 @@
 5. [LINK DEMO](#web)
 
 
-### informacion general
+#### informacion general
 
 Informacion general del proyecto:
 *[Establecimiento] - Establecimiento educativo: CoderHouse.
@@ -18,17 +18,25 @@ Informacion general del proyecto:
 *[Año] - Año de cursada: 2023. Inicio: Jueves 12/01/2023. Finalizacion: Martes 14/03/2023.
 
 
-### tecnologias
+#### tecnologias
 
 Tecnologias utilizadas dentro del proyecto:
-*[Javascript]------(https://www.javascript.com/) - Versión:
+*[Javascript]--(https://www.javascript.com/) - Versión:
+
 *[Bootstrap]---(https://getbootstrap.com/) - Versión: 5.3.0
+
 *[HTML]--------(https://developer.mozilla.org/es/docs/Web/HTML) - Versión: 5
+
 *[CSS]---------(https://developer.mozilla.org/es/docs/Web/CSS) - Versión: 3
+
 *[Git]---------(https://git-scm.com/) - Versión: 2.37.3
+
 *[GitHub]------(https://github.com/) - Versión: Online. 
+
 *[Ionos]-------(https://www.ionos.com/tools/favicon-generator) - Versión: Online. 
+
 *[SweetAlert]--(https://sweetalert2.github.io/) - Versión: 2
+
 *[GoogleFonts]-(https://fonts.google.com/)
 
 ### colaboracion
