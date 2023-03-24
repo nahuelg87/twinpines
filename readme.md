@@ -28,7 +28,8 @@ Tecnologias utilizadas dentro del proyecto:
 *[Git]---------(https://git-scm.com/) - Versión: 2.37.3
 *[GitHub]------(https://github.com/) - Versión: Online. 
 *[Ionos]-------(https://www.ionos.com/tools/favicon-generator) - Versión: Online. 
-
+*[SweetAlert]--(https://sweetalert2.github.io/) - Versión: 2
+*[GoogleFonts]-(https://fonts.google.com/)
 
 ### colaboracion
 
