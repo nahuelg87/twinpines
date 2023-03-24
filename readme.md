@@ -11,10 +11,15 @@
 #### informacion general
 
 Informacion general del proyecto:
+
 *[Establecimiento] - Establecimiento educativo: CoderHouse.
+
 *[Curso] - Javascript.
+
 *[Comisión] - Numero: 51330.
+
 *[Alumno] - Alumno: Nahuel Genari.
+
 *[Año] - Año de cursada: 2023. Inicio: Jueves 12/01/2023. Finalizacion: Martes 14/03/2023.
 
 
