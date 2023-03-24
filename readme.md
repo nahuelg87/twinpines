@@ -18,7 +18,7 @@ Informacion general del proyecto:
 *[Año] - Año de cursada: 2023. Inicio: Jueves 12/01/2023. Finalizacion: Martes 14/03/2023.
 
 
-#### tecnologias
+####tecnologias
 
 Tecnologias utilizadas dentro del proyecto:
 *[Javascript]--(https://www.javascript.com/) - Versión:
