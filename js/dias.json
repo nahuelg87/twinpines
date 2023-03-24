@@ -1,0 +1,24 @@
+[
+    {
+      "id": 1,
+      "cantidadDias": 1,
+      "title": "1 Dia",
+      "valor": 1,
+      "imagen": "../assets/1dia.png"
+    },
+    {
+      "id": 2,
+      "cantidadDias": 5,
+      "title": "5 Dias",
+      "valor": 5,
+      "imagen": "../assets/5dias.png"
+    },
+    {
+      "id": 3,
+      "cantidadDias": 10,
+      "title": "10 Dias",
+      "valor": 10,
+      "imagen": "../assets/10dias.png"
+    }
+  ]
+  

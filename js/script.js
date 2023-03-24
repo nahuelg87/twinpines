@@ -53,7 +53,6 @@ function closeNav() {
 }
 
 
-//Lista de empleados
 
 //Cartel de bienvenida
 let user = localStorage.getItem('user')
@@ -61,8 +60,6 @@ let password = localStorage.getItem('password')
 let email = localStorage.getItem('email')
 document.querySelector('#bienvenida').innerText = `Buenos días ${user} 
 ¡Bienvenido al portal de empleados!`;
-
-
 
 //Perfil del usuario
 

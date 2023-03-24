@@ -8,6 +8,9 @@
     <script defer src="../js/data.js"></script>
     <script defer src="../js/script.js"></script>
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <video class="video" src="../assets/Space01.mp4" position="fixed" video autoplay="autoplay" loop="loop" preload="auto" muted></video>
@@ -22,30 +25,49 @@
         <span id="mainBar">
             <button class="openbtn" onclick="openNav()">☰ GRUPO LOS PINOS GEMÉLOS</button>  
             <div class="openbtn">
-                <button onclick="menuLogin()" class="dropbtn">Opciones</button>
+                <button onclick="menuLogin()" class="dropbtn">GRUPO LPG</button>
                 <div id="myDropdown1" class="dropdown-content">
-                <a href="/signup.html" onclick="login()">Registrate</a>
-                <a href="/login.html" onclick="login()">Inicia Sesión</a>
-                <a href="/login.html" id="btnLogout" onclick="logout()">Cerrar Sesión</a>
+                <a href="signup.html" onclick="login()">Registrate</a>
+                <a href="login.html" onclick="login()">Inicia Sesión</a>
+                <a href="login.html" id="btnLogout" onclick="logout()">Cerrar Sesión</a>
                 </div>
             </div>
         </span>
-        <div id="areaCentral" class="bordes">
-            <h1>Descargar recibos de sueldo anteriores</h1>
-            <div class="content"></div>
-            <template id="tableTemplate">
-            <table>
-            <thead><tr>
-            <th class="subject">Subjects</th>
-            </tr></thead>
-            <tbody>
-            </tbody>
-            </table>
-            </template>
-            <template id="rowTemplate"><tr>
-            <th class="subject"></th></tr>
-            </template>               
+        <div class="container">
+            <h1>Documentos y Recibos</h1>
+            <div id="vacasX"></div>
+            <hr>
+            <h4>Ultimos 12 recibos!</h4>
+            <div class="row" id="cards"></div>
+            <hr>
         </div>
     </div>
+
+    <template id="template-card">
+        <div class="col-12 mb-2 col-md-2">
+        <div class="card">
+            <img src="" alt="" class="card-img-top">
+            <div class="card-body">
+            <h5>Titulo</h5>
+            <p>Cantidad</p>
+            <button class="btn btn-dark">Descargar</button>
+            </div>
+        </div>
+        </div>
+    </template>
+    <template id="template-card2">
+        <div class="col-12 mb-2 col-md-2">
+        <div class="card">
+            <img src="" alt="" class="card-img-top">
+            <div class="card-body">
+            <h5>Titulo</h5>
+            <p>Cantidad</p>
+            <button class="btn btn-dark">Descargar</button>
+            </div>
+        </div>
+        </div>
+    </template>
+    <script src="../js/docs.js"></script>
+
 </body>
 </html>

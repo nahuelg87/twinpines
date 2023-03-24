@@ -237,6 +237,22 @@ input[type="button"]:hover{
     padding-right: 5px; 
     width: auto;
 }
+
+.container{
+    color: lime;
+}
+
+.container span{
+    color: lime;
+}
+
+.container td{
+    color: lime;
+}
+
+.container th{
+    color: lime;
+}
 /* //GRIDS AREA// */
 
 #containerx {
