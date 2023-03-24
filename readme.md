@@ -5,7 +5,7 @@
 2. [Tecnologías](#tecnologias)
 3. [Colaboración](#colaboracion)
 4. [FAQs](#faqs)
-5. [LINK DEMO](#demo)
+5. [LINK DEMO](#web)
 
 
 ### informacion general
